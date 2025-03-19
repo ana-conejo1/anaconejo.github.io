@@ -2083,7 +2083,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin: 2.5em 0 0 0;
+		margin: 2em 0 0 0;
 	}
 
 		#nav > ul {
@@ -2117,7 +2117,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #2394d5;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2175,18 +2175,18 @@ input, select, textarea {
 	#banner {
 		background: #CCE8F4 url("../../images/bunny-computer.png");
 		background-position: right center;
-		background-size: left 100%;
+		background-size: auto 100%;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
+		margin: 4em 0 0 0;
 	}
 
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.90);
 			display: inline-block;
 			padding: 2.5em 5em;
-			margin-left: 50%;
 			border-radius: 10px;
 		}
 
