@@ -144,7 +144,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2.5em;
 	}
 
 	h3 {
@@ -2068,7 +2068,7 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
+		padding: 20px 0 20px 0;
 		text-align: center;
 	}
 
@@ -2083,7 +2083,10 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin: 2em 0 0 0;
+		margin: 20px 0 0 0;
+		
+		position: fixed;
+		z-index:1000;
 	}
 
 		#nav > ul {
@@ -2102,7 +2105,7 @@ input, select, textarea {
 
 				#nav > ul > li > a {
 					border-radius: 5px;
-					color: #5d5d5d;
+					color: #313131;
 					text-decoration: none;
 					padding: 0.6em 1.2em 0.6em 1.2em;
 					-moz-transition: background-color .25s ease-in-out;
@@ -2284,6 +2287,7 @@ input, select, textarea {
 
 		#main .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
+			font-size: 2.5em;
 		}
 
 /* Footer */
@@ -2482,7 +2486,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 3.5em 0 3em 0;
+				padding: 20px 0 15px 0;
 			}
 
 		/* Nav */
@@ -2749,7 +2753,7 @@ input, select, textarea {
 			}
 
 			header {
-				margin: 0 0 1em 0;
+				margin: 0 0 0 0;
 			}
 
 			footer {
